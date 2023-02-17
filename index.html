@@ -1,0 +1,132 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<style type="text/css">
+  .owl-carousel {
+      margin-top: 10px;
+}
+  .owl-carousel .owl-item img {
+      height: 100%;
+      border-radius: 6px;
+}
+
+.owl-nav {
+   font-size: 75px;
+   color: white;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 35%;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-next {
+    position: absolute;
+    top: 35%;
+    right: 0px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.item {
+   transition: transform 400ms;
+   position: relative;
+}
+
+.item:hover {
+   transform: scale(1.05);
+}
+
+.portbtn {
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+}
+
+.port-text {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+    color: white;
+    font-weight: 600;
+}
+
+.opacity-overlay {
+background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+
+</style>
+
+<div class="owl-one owl-carousel owl-theme">
+    <div class="item text-center">
+        <span class="opacity-overlay"></span>
+        <img src="/is/image/content/dam/celebrity/new-images/destination-pages/alaska/tracy-arm-fjord-juneau-alaska.jpg?$5x6-small$">
+        <h4 class="port-text">Juneau</h4>
+        <a role="button" class="button primary portbtn" href="/content/celebrity/us/en/ports/juneau" target="_self">Learn More</a>
+    </div>
+     <div class="item text-center">
+        <span class="opacity-overlay"></span>
+        <img src="/is/image/content/dam/celebrity/new-images/new-package-images/ketchikan-alaska-totem-poles.jpg?$5x6-small$">
+        <h4 class="port-text">Ketchikan</h4>
+        <a role="button" class="button primary portbtn" href="/content/celebrity/us/en/ports/ketchikan" target="_self">Learn More</a>
+    </div>
+    <div class="item text-center">
+        <span class="opacity-overlay"></span>
+        <img src="/is/image/content/dam/celebrity/new-images/new-package-images/skagway-alaska.jpg?$5x6-small$">
+        <h4 class="port-text">Skagway</h4>
+        <a role="button" class="button primary portbtn" href="/content/celebrity/us/en/ports/skagway" target="_self">Learn More</a>
+    </div>
+        <div class="item text-center">
+        <span class="opacity-overlay"></span>
+        <img src="/is/image/content/dam/celebrity/new-images/port-pages/sitka/sea-lions-lounging-on-rock-sitka-alaska.jpg?$5x6-small$">
+        <h4 class="port-text">Sitka</h4>
+        <a role="button" class="button primary portbtn" href="/content/celebrity/us/en/ports/sitka" target="_self">Learn More</a>
+    </div>
+        <div class="item text-center">
+        <span class="opacity-overlay"></span>
+        <img src="/is/image/content/dam/celebrity/new-images/port-pages/icy-strait-point/icy-strait-point-pier-1-3840x2160.jpg?$5x6-small$">
+        <h4 class="port-text">Icy Strait Point</h4>
+        <a role="button" class="button primary portbtn" href="/content/celebrity/us/en/ports/icy-strait-point" target="_self">Learn More</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+$('.owl-one').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:true,
+    lazyLoad: true,
+    responsive:{
+        0:{
+            items:1.2
+        },
+        600:{
+            items:2.2
+        },
+        1000:{
+            items:3.2
+        },
+        1400:{
+            items:4.2
+        },
+        1800:{
+            items:5.2
+        }
+    }
+})
+</script>
+
